@@ -1,0 +1,76 @@
+@import url('https://font.googleapis.com/css?family=Roboto');
+
+body{
+  background: url('../background/1.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.main-section{
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 0;
+}
+
+.modal-content{
+  background-color: #434e5a;
+  opacity: .8;
+  padding-top: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+
+.title-login h1{
+  color: black;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.title-login{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-group{
+  margin-bottom: 15px;
+}
+
+.form-group input{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 1px 1px 1px 1px;
+  height: 30px;
+  letter-spacing: 1px;
+  outline: none;
+  color: #2c3e50;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.form-group input:focus{
+  width: 15%;
+  border-color: #2ecc71;
+}
+
+.form-input button{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 7px 25px 7px 25px;
+  outline: none;
+  color: #2c3e50;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.form-input button:hover{
+  background: #22ecc71;
+
+}
